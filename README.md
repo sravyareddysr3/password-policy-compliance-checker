@@ -2,7 +2,7 @@
 
 ![tests](../../actions/workflows/tests.yml/badge.svg)
 
-**Task 13 – Build a Small Defensive Security Tool**
+**Build a Small Defensive Security Tool**
 
 A small Python tool that audits **synthetic** account records against a configurable
 password policy and reports exactly which rules each account violates.
