@@ -1,0 +1,12 @@
+username,compliant,password_length,password_age_days,violations
+alice,True,18,74,
+bob,False,11,291,Too short (11 < 12); Missing uppercase letter; Missing symbol; Is a commonly used password
+carol,False,7,57,Too short (7 < 12)
+dave,False,17,100,Missing digit; Missing symbol
+erin,True,17,27,
+frank,False,16,120,Repeats a character more than 3 times in a row
+grace,False,15,987,Password is 987 days old (max 365)
+heidi,False,16,38,Missing lowercase letter
+ivan,False,14,176,Contains a keyboard/alphabet/number sequence
+judy,True,21,18,
+mallory,False,17,,Invalid last_changed date (expected YYYY-MM-DD)

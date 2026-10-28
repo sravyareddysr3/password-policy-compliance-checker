@@ -1,0 +1,31 @@
+================================================================
+PASSWORD POLICY COMPLIANCE REPORT (synthetic data)
+================================================================
+[PASS] alice        (length=18)
+[FAIL] bob          (length=11)
+        - Too short (11 < 12)
+        - Missing uppercase letter
+        - Missing symbol
+        - Is a commonly used password
+[FAIL] carol        (length=7)
+        - Too short (7 < 12)
+[FAIL] dave         (length=17)
+        - Missing digit
+        - Missing symbol
+[PASS] erin         (length=17)
+[FAIL] frank        (length=16)
+        - Repeats a character more than 3 times in a row
+[FAIL] grace        (length=15)
+        - Password is 987 days old (max 365)
+[FAIL] heidi        (length=16)
+        - Missing lowercase letter
+[FAIL] ivan         (length=14)
+        - Contains a keyboard/alphabet/number sequence
+[PASS] judy         (length=21)
+[FAIL] mallory      (length=17)
+        - Invalid last_changed date (expected YYYY-MM-DD)
+----------------------------------------------------------------
+Accounts checked : 11
+Compliant        : 3
+Non-compliant    : 8
+Compliance rate  : 27.3%

@@ -1,0 +1,99 @@
+[
+  {
+    "username": "alice",
+    "compliant": true,
+    "violations": [],
+    "password_length": 18,
+    "password_age_days": 74
+  },
+  {
+    "username": "bob",
+    "compliant": false,
+    "violations": [
+      "Too short (11 < 12)",
+      "Missing uppercase letter",
+      "Missing symbol",
+      "Is a commonly used password"
+    ],
+    "password_length": 11,
+    "password_age_days": 291
+  },
+  {
+    "username": "carol",
+    "compliant": false,
+    "violations": [
+      "Too short (7 < 12)"
+    ],
+    "password_length": 7,
+    "password_age_days": 57
+  },
+  {
+    "username": "dave",
+    "compliant": false,
+    "violations": [
+      "Missing digit",
+      "Missing symbol"
+    ],
+    "password_length": 17,
+    "password_age_days": 100
+  },
+  {
+    "username": "erin",
+    "compliant": true,
+    "violations": [],
+    "password_length": 17,
+    "password_age_days": 27
+  },
+  {
+    "username": "frank",
+    "compliant": false,
+    "violations": [
+      "Repeats a character more than 3 times in a row"
+    ],
+    "password_length": 16,
+    "password_age_days": 120
+  },
+  {
+    "username": "grace",
+    "compliant": false,
+    "violations": [
+      "Password is 987 days old (max 365)"
+    ],
+    "password_length": 15,
+    "password_age_days": 987
+  },
+  {
+    "username": "heidi",
+    "compliant": false,
+    "violations": [
+      "Missing lowercase letter"
+    ],
+    "password_length": 16,
+    "password_age_days": 38
+  },
+  {
+    "username": "ivan",
+    "compliant": false,
+    "violations": [
+      "Contains a keyboard/alphabet/number sequence"
+    ],
+    "password_length": 14,
+    "password_age_days": 176
+  },
+  {
+    "username": "judy",
+    "compliant": true,
+    "violations": [],
+    "password_length": 21,
+    "password_age_days": 18
+  },
+  {
+    "username": "mallory",
+    "compliant": false,
+    "violations": [
+      "Invalid last_changed date (expected YYYY-MM-DD)"
+    ],
+    "password_length": 17,
+    "password_age_days": null
+  }
+]
